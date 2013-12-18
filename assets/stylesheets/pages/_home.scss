@@ -1,0 +1,74 @@
+// Every page should have a class on the body
+// Scope that in each file at the start
+body._home {
+  // ._body_container {
+    ._carousel_hero {
+      position: relative;
+      margin: 0;
+      ._carousel_nav {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 0;
+        margin-left: -18px;
+      }
+      ._carousel_container {
+        overflow: hidden;
+        ._carousel_item {
+          border: 0;
+          position: relative;
+          width: 280px;
+          height: 200px;
+          border-left: $border_gray3;
+          border-right: $border_gray3;
+          img {
+            width: 280px;
+            height: 200px;
+          }
+          ._title1, ._title2, ._title3 {
+            background: $white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: $orange1;
+            text-shadow: 0;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          ._title1 {
+            margin-top: -16px;
+            margin-left: -60px;
+          }
+          ._title2 {
+            margin-top: -16px;
+            margin-left: -65px;
+          }
+          ._title3 {
+            background: 0;
+            margin-top: -16px;
+            margin-left: -44px;
+          }
+        }
+      }
+    }
+    ._toggler {
+      ._toggler_btn {
+        border: 0;
+        border-top: $border_gray3;
+      }
+      ._toggler_content {
+        ul {
+          li {
+            background: $white;
+            border: 0;
+            border-top: $border_gray3;
+            padding-left: 20px;
+            a {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  // }
+}

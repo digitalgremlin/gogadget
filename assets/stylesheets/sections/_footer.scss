@@ -1,0 +1,14 @@
+footer._footer {
+  overflow: hidden;
+  padding: $padding;
+  border-top: $border_gray3;
+  text-align: center;
+  // Footer information
+  ._info {
+    padding: 5px;
+  }
+  // Footer copyright
+  ._copyright {
+    padding: 5px;
+  }
+}
