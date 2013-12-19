@@ -17,6 +17,8 @@ $blue1:                   #3500ED;
 $blue2:                   #17338F;
 $blue3:                   #3ca3e0;
 
+//red
+$red1:                    #5C1000;
 // White
 $white:                   #FFFFFF;
 
@@ -55,6 +57,8 @@ $h3_size:                 $base_font_size + 3px;
 $border_green2:           1px solid $green2;
 $border_green2_shaded:    1px solid shade($green2, 20%);
 $border_gray3:            1px solid $gray3;
+$border_black1:           1px solid $black; 
+$border_red1:             4px solid $red1; 
 
 // Gradients
 // ---------

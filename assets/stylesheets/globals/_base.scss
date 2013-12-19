@@ -42,4 +42,8 @@ input[type="number"]::-webkit-outer-spin-button {
   // Size items the way you'd expect
   @include box-sizing(border-box);
 }
+._hidden { display: none;}
+#_contentBlock {
+    padding: 10px 0px;
+  }
 

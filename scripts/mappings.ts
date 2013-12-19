@@ -23,10 +23,14 @@ match($status) {
         @import "pages/home.ts"
       }
 
-      # with(/INSERT URL MATCHER/) {
-      #   log("--> Importing pages/INSERT PAGETYPE.ts in mappings.ts")
-      #   @import pages/INSERT PAGETYPE.ts
-      # }
+       with(/shop-.*|brands/) {
+        log("--> Importing pages/category.ts in mappings.ts")
+         @import pages/category.ts
+       }
+       with(/sample-product/) {
+        log("--> Importing pages/pdp.ts in mappings.ts")
+         @import pages/pdp.ts
+       }
 
       # with(/INSERT URL MATCHER/) {
       #   log("--> Importing pages/pagetype.ts in mappings.ts")
