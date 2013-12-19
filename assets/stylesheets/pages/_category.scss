@@ -1,0 +1,40 @@
+// Every page should have a class on the body
+// Scope that in each file at the start
+body._category {
+  .Content {
+
+   > div { 
+    padding: 10px;
+    &.CategoryContent { padding: 0px;}
+  }
+  .CompareButton { text-align: center;}
+  #_toggler_subnavigation { padding: 0;}
+  ._newTitle {
+    text-align: left;
+    color: $white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: $red1;
+  }
+  .Breadcrumb {
+    li{ 
+      display: inline-block;
+      font-weight: bold;
+      &:after{
+        Content: " >> "
+      }
+    }
+  }
+  .ProductList {
+    li { 
+      border-bottom: $border_red1;
+      padding: 10px;
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+
+
+
+} //category

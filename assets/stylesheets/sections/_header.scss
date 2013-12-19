@@ -1,20 +1,23 @@
 // Header Styles
 header._header {
   overflow: hidden;
-  border-bottom: $border_gray3;
+  border-bottom: $border_black1;
+  background-color: $red1;
+  > a { float: left;}
   // Logo
   ._logo {
     display: inline-block;
     padding: 16px;
     font-size: $h1_size;
-    color: $text_color;
+    color: $white;
+    text-shadow: $text_shadow_black1;
     background-size: cover;
   }
   // Header Tabs
   &._tabs {
     ._tabs_button {
       position: relative;
-      border-left: $border_gray3;
+      border-left: $border_black1;
       padding: 15px;
       text-align: center;
       float: right;
@@ -33,7 +36,8 @@ header._header {
           height: 20px;
           font-size: 25px;
           font-weight: bold;
-          text-shadow: $text_shadow_gray3;
+          color: $white;
+          text-shadow: $text_shadow_black1;
         }
         &[data-ur-state="enabled"] {
           ._help {
@@ -44,8 +48,14 @@ header._header {
       }
     }
     ._tabs_content {
+      margin-top: 55px;
       ._tabs_link {
         
+      }
+    }
+    #_help_btn {
+      ._tabs_content {
+        margin-top: 0;
       }
     }
   }

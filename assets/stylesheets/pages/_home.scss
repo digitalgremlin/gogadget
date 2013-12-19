@@ -6,11 +6,8 @@ body._home {
       position: relative;
       margin: 0;
       ._carousel_nav {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin: 0;
-        margin-left: -18px;
+        position: relative;
+        margin: 2px auto 2px;
       }
       ._carousel_container {
         overflow: hidden;
@@ -25,8 +22,20 @@ body._home {
             width: 280px;
             height: 200px;
           }
+          &._papers {
+            background-image: url(' http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rock-paper-scissors_%28paper%29.png/600px-Rock-paper-scissors_%28paper%29.png');
+            background-size: 280px;
+          }
+          &._rocks {
+            background-image: url(' http://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rock-paper-scissors_%28rock%29.png/600px-Rock-paper-scissors_%28rock%29.png');
+            background-size: 280px;
+          }
+          &._scissors {
+            background-image: url(' http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/600px-Rock-paper-scissors_%28scissors%29.png');
+            background-size: 280px;
+          }
           ._title1, ._title2, ._title3 {
-            background: $white;
+            background: transparent;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -71,4 +80,5 @@ body._home {
       }
     }
   // }
+ 
 }
